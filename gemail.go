@@ -11,9 +11,9 @@ import (
 
 // general account info, always get it from environment variables
 var (
-	servername = os.Getenv("SERVER_NAME")
-	username   = os.Getenv("USERNAME")
-	password   = os.Getenv("PASSWORD")
+	servername = os.Getenv("EMAIL_SERVER")
+	username   = os.Getenv("EMAIL_ACCOUNT")
+	password   = os.Getenv("EMAIL_PASSWORD")
 )
 
 // dial using TLS/SSL

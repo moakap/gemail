@@ -1,8 +1,8 @@
 # server name, port is mandatory
-export SERVER_NAME=smtp.qq.com:465
+export EMAIL_SERVER=smtp.qq.com:465
 
-# username 
-export USERNAME=username@qq.com
+# email account
+export EMAIL_ACCOUNT=username@qq.com
 
-# password or authorization code, for http://service.mail.qq.com/cgi-bin/help?subtype=1&&no=1001256&&id=28
-export PASSWORD=<authorization code>
+# email password or authorization code, for http://service.mail.qq.com/cgi-bin/help?subtype=1&&no=1001256&&id=28
+export EMAIL_PASSWORD=<authorization code>
