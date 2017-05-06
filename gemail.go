@@ -6,13 +6,14 @@ import (
 	"net"
 	"net/mail"
 	"net/smtp"
+	"os"
 )
 
 // general account info, always get it from environment variables
-const (
-	servername = "smtp.exmail.qq.com:465" // port is needed
-	username   = "274991933@qq.com"
-	password   = "1314qqin"
+var (
+	servername = os.Getenv("SERVER_NAME")
+	username   = os.Getenv("USERNAME")
+	password   = os.Getenv("PASSWORD")
 )
 
 // dial using TLS/SSL
