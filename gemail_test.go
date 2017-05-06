@@ -8,7 +8,7 @@ import (
 
 func TestSendEmail(t *testing.T) {
 	//
-	err := gemail.Send("jun.liu@obenben.com", "this is one test mail sent from go program", "this is the body.")
+	err := gemail.Send("user@example.com", "this is one test mail sent from go program", "this is the body.")
 	if err != nil {
 		fmt.Println("send mail failed: ", err.Error())
 		t.Fail()
