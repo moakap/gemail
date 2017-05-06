@@ -1,0 +1,5 @@
+# Ignore temporary files
+tmp/*
+
+# Ignore Go vendor path
+vendor
